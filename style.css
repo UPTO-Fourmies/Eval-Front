@@ -25,6 +25,10 @@ main {
     width: 100rem;
     margin: 10rem auto;
     border: 1rem #d0d0d0 solid;
+    background-image: url("portrait.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .triple {
@@ -104,3 +108,42 @@ p {
     background: #f86925;
 }
 
+section {
+    display: inline-block;
+}
+
+#nav {
+    float: right;
+    width: 38rem;
+    height: 60rem;
+    padding: 1rem;
+}
+
+#dots {
+    color: grey;
+    text-align: right;
+}
+
+#dots i:first-child {
+    color: white;
+}
+
+.round {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: #80808080;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    display: inline-block;
+}
+
+#arrow {
+    padding-top: 27rem;
+}
+
+#arrow .round:last-child {
+    float: right;
+}
