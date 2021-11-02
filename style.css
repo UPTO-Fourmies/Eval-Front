@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+body {
+    width: 100%;
+}
+
+a {
+    text-decoration-line: none;
+    color: white;
+}
+
+main {
+    width: 100rem;
+    margin: 10rem auto;
+    border: 1rem #d0d0d0 solid;
+}
+
+.triple {
+    width: 60rem;
+    height: 20rem;
+}
+
+#top, #middle .single {
+    background: #35bc7a;
+}
+
+#name {
+    width: 40rem;
+    display: inline-block;
+    padding: 3.5rem 0 4rem 3rem;
+    font-size: 1.2rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+p {
+    padding: .5rem 0;
+}
+
+.button {
+    margin-top: .5rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    width: 30%;
+    display: inline-block;
+    border: 2px white solid;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.far {
+    font-size: 5rem;
+}
+
+#name .fas {
+    margin-right: .5rem;
+}
+
+.single {
+    float: right;
+}
+
+.single, .text {
+    width: 20rem;
+    height: 20rem;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 7rem;
+}
+
+.text {
+    display: inline-block;
+}
+
+.double {
+    width: 40rem;
+    height: 20rem;
+    float: right;
+}
+
+#top .single {
+    background: #ff9e00;
+}
+
+#middle, #bottom .double {
+    background: #1e8bc4;
+}
+
+#middle .double {
+    background: #f15a49;
+}
+
+#bottom, #bottom .single {
+    background: #f86925;
+}
