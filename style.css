@@ -62,11 +62,6 @@ p {
     font-weight: bold;
 }
 
-
-.far {
-    font-size: 5rem;
-}
-
 #name .fas {
     margin-right: .5rem;
 }
@@ -80,7 +75,7 @@ p {
     height: 20rem;
     font-size: 1.2rem;
     text-align: center;
-    padding: 7rem;
+    padding: 6.5rem;
 }
 
 .text {
@@ -108,3 +103,4 @@ p {
 #bottom, #bottom .single {
     background: #f86925;
 }
+
