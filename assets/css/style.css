@@ -34,7 +34,7 @@ a {
 
 .bandeau {
     width: 100%;
-    background: url("assets/img/night-city.png");
+    background: url("../img/night-city.png");
     background-size: 100%;
 }
 
