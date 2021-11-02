@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.pos {
+    padding-top: 3rem;
+    padding-left: 3rem;
+    text-align: center;
+}
+
+div {
+    width: 20%;
+    height: 32%;
+    margin-right: -4px;
+    margin-bottom: -4px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.bandeau {
+    width: 100%;
+    background: url("assets/img/night-city.png");
+    background-size: 100%;
+}
+
+.contour {
+    width: 885px;
+    height: 515px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.phrase {
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titre {
+    padding-bottom: 1rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lien1, .lien2 {
+    border: 1px solid white;
+    padding: 0.5rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.lien1:hover {
+    background-color: blue;
+}
+
+.lien2:hover {
+    background-color: blue;
+}
+
+.bas {
+    padding-bottom: 1.5rem;
+}
+
+.text {
+    background-color: #35bc7a;
+    display: inline-block;
+    width: 33%;
+    height: 27%;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 35px;
+    overflow: hidden;
+}
+
+.profil {
+    background-color: #f8ca25;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.profil:hover {
+    background-color: gray;
+}
+
+.experience {
+    background-color: #1e8bc4;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.experience:hover {
+    background-color: gray;
+}
+
+.education {
+    background-color: #fd1f04;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.education:hover {
+    background-color: gray;
+}
+
+.blog {
+    background-color: #35bc7a;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.blog:hover {
+    background-color: gray;
+}
+
+.socialMenu {
+    background-color: #f8ca25;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.socialMenu:hover {
+    background-color: gray;
+}
+
+.contact {
+    background-color: #1e8bc4;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.contact:hover {
+    background-color: gray;
+}
+
+.portefolio {
+    background-color: #f86925;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.portefolio:hover {
+    background-color: gray;
+}
+
+.photo {
+    display: inline-block;
+    height: 494px;
+    position: relative;
+    right: 15%;
+    float: right;
+    z-index: 0;
+}
+
+i.fas.fa-address-card, i.fas.fa-desktop, i.fas.fa-battery-three-quarters,
+i.fas.fa-book, i.far.fa-edit, i.fas.fa-plus, i.fas.fa-paper-plane {
+    font-size: 55px;
+}
+
+i.fa-chevron-left, i.fa-chevron-right {
+    color: white;
+    position: absolute;
+    z-index: 1;
+}
+
+i.fa-chevron-right {
+    position: absolute;
+    float: right;
+    right: 35%;
+}
+
+i.fa-chevron-left {
+    position: absolute;
+    float: left;
+    left: 55%;
+}
