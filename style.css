@@ -21,28 +21,29 @@ a {
     color: white;
 }
 
+main, #mosaic, .frame, #button {
+    display: flex;
+}
+
 main {
     width: 100rem;
+    height: 62rem;
     margin: 10rem auto;
     border: 1rem #d0d0d0 solid;
-    display: flex;
+    background-image: url("portrait.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #mosaic {
-    display: flex;
     flex-wrap: wrap;
-
     flex-basis: 60%;
 }
 
-.frame, #name {
-    flex-grow: 1;
-}
-
 .frame {
-    width: 19rem;
+    width: 33.33%;
     height: 20rem;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -51,10 +52,14 @@ main {
 }
 
 #name {
-    width: 38rem;
+    width: 66.66%;
     height: 20rem;
     padding: 3.5rem 0 4rem 3rem;
     font-size: 1.2rem;
+}
+
+#name p {
+    font-size: 1.5rem;
 }
 
 #name, .green {
@@ -69,19 +74,17 @@ p {
     padding: .5rem 0;
 }
 
-.button {
-    margin-top: .5rem;
-    margin-right: 1rem;
-    padding: 1rem;
-    width: 30%;
-    display: inline-block;
-    border: 2px white solid;
-    text-align: center;
-    font-weight: bold;
+#button {
+    width: 60%;
+    justify-content: space-between;
 }
 
-#name i {
-    margin-right: .5rem;
+#button a {
+    padding: 1rem;
+    border: 3px white solid;
+    font-weight: bold;
+    flex-basis: 45%;
+    text-align: center;
 }
 
 .orange {
@@ -100,6 +103,15 @@ p {
     background: #f86925;
 }
 
+#picture {
+    background-image: url("portrait.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: black;
+    display: none;
+}
+
 #name a:hover {
     box-shadow: 0 0 5px 1px white;
 }
@@ -108,27 +120,18 @@ p {
     box-shadow: inset 0 0 10px 2px white;
 }
 
-section {
-    display: inline-block;
-}
-
 #nav {
-    flex-basis: 40%;
+    width: 40rem;
     height: 60rem;
     padding: 1rem;
-    background-image: url("portrait.png");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 #dots {
     text-align: right;
     color: grey;
+    flex-basis: 45%;
 }
 
 #arrow {
@@ -151,7 +154,6 @@ section {
     padding-top: 1rem;
     font-size: 1.5rem;
     border: 1px solid white;
-
 }
 
 .round:hover {
@@ -159,7 +161,61 @@ section {
     box-shadow: 0 0 5px 1px white;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 650px) {
 
+    #nav {
+        display: none;
+    }
+
+    main {
+        background-image: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    #mosaic {
+        flex-basis: 100%;
+    }
+
+    #button {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 530px) {
+
+    main {
+        height: auto;
+    }
+
+    #name {
+        width: 100%;
+        height: auto;
+    }
+
+    .frame {
+        width: 50%;
+    }
+
+    #picture {
+        display: unset;
+    }
+
+    #button {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .frame {
+        width: 100%;
+    }
+
+    #picture {
+        display: none;
+    }
 
 }
