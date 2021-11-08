@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="600d20d2-78cd-4601-aeef-d1f66dddaf1d" name="Default Changelist" comment="finish" />
+    <list default="true" id="600d20d2-78cd-4601-aeef-d1f66dddaf1d" name="Default Changelist" comment="finish">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,11 +37,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\monst\PhpstormProjects\Eval-Front\assets\css" />
       <recent name="C:\Users\monst\PhpstormProjects\Eval-Front\assets\img" />
       <recent name="C:\Users\monst\PhpstormProjects\Eval-Front" />
     </key>
@@ -51,7 +56,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635840838468</updated>
-      <workItem from="1635840841146" duration="9440000" />
+      <workItem from="1635840841146" duration="10530000" />
+      <workItem from="1635856912816" duration="1294000" />
+      <workItem from="1636021804004" duration="3000" />
+      <workItem from="1636362714067" duration="2106000" />
+      <workItem from="1636364866306" duration="1319000" />
     </task>
     <task id="LOCAL-00001" summary="finish">
       <created>1635850093644</created>
@@ -60,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635850093644</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finish">
+      <created>1635850574965</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635850574965</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +92,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finish" />

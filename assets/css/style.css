@@ -188,3 +188,60 @@ i.fa-chevron-left {
     float: left;
     left: 55%;
 }
+
+
+@media screen and (max-width: 1024px) {
+
+    html {
+        font-size: 1rem;
+    }
+
+    .contour, div {
+        margin: 0;
+        padding: 0;
+    }
+
+    .photo {
+        display: none;
+    }
+
+    .socialMenu {
+        display: none;
+    }
+
+    .bandeau {
+        background-color: white;
+    }
+
+    i.fa-chevron-left, i.fa-chevron-right {
+        display: none;
+    }
+
+
+    div {
+        width: 50%;
+        height: 45%;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    .phrase {
+        font-size: 1rem;
+    }
+
+    .titre {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .text {
+        width: 43%;
+        height: 60%;
+    }
+
+    .lien1, .lien2 {
+        font-size: 1rem;
+    }
+}
